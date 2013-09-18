@@ -1,0 +1,41 @@
+.mdrop
+{	margin: 0;
+	padding: 0}
+
+	.mdrop li
+	{	float: left;
+		list-style: none;
+		font: 12px Tahoma, Arial}
+
+	.mdrop li a
+	{	display: block;
+		background: #324143;
+		padding: 5px 12px;
+		text-decoration: none;
+		border-right: 1px solid white;
+		width: 70px;
+		color: #EAFFED;
+		white-space: nowrap}
+
+	.mdrop li a:hover
+	{	background: #24313C}
+		
+		.mdrop li ul
+		{	margin: 0;
+			padding: 0;
+			position: absolute;
+			/*visibility: hidden;*/
+                                                                      display: none;
+			border-top: 1px solid white}
+		
+			.mdrop li ul li
+			{	float: none;
+				display: inline}
+			
+			.mdrop li ul li a
+			{	width: auto;
+				background: #A9C251;
+				color: #24313C}
+			
+			.mdrop li ul li a:hover
+			{	background: #8EA344}
